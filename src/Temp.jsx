@@ -33,7 +33,7 @@ const Temp = () => {
     <>
     <div className='wrap'>
     <div className='search'>
-        <input type="search" name="" id="search" placeholder='search ...' autoFocus className='searchTerm' value={searchValue} onChange={(event)=>{
+        <input type="search" name="" id="search" placeholder='search ..' autoFocus className='searchTerm' value={searchValue} onChange={(event)=>{
             return(setSearchValue(event.target.value))
         }}/>
         <button className='searchButton' type="button" onClick={getWeatherInfo}>Search</button>
